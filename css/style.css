@@ -1,0 +1,256 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2000px;
+    background-color: rgb(42, 2, 46);
+}
+.div1{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(97, 8, 97);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(42, 2, 46);
+    padding-top: 30px;
+    font-size: 30px;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+    animation-timing-function: lease-in-out;
+    animation-play-state: running;
+       
+   
+}
+
+@keyframes change{
+    0%{
+        background-color: rgb(255, 0, 234);
+        left:0;  
+    }
+    100%{
+        background-color: white;
+        left: 1190px ;
+        
+    }
+}
+
+.div2{
+    width: 150px;
+    height: 100px;
+    background: -webkit-linear-gradient(left,rgb(196, 33, 142),rgb(46, 105, 214),pink);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+    left: 1190;
+    top: 170px;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+    animation-play-state: running;
+    
+}
+@keyframes change{
+    0%{
+        background-color: rgb(255, 0, 234);
+        left:0;  
+    }
+    100%{
+        background-color:white;
+        left: 1190px ;
+        
+    }
+}
+
+.div3{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(196, 33, 196);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(42, 2, 46);
+    padding-top: 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 370px;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+}
+@keyframes change{
+    0%{
+        background-color: rgb(255, 0, 234);
+        left:0;  
+    }
+    100%{
+        background-color: white;
+        left: 1190px ;
+        
+    }
+}
+.div4{
+    width: 150px;
+    height: 100px;
+    background: -webkit-linear-gradient(left,rgb(196, 33, 142),rgb(46, 105, 214),pink);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+    position: absolute;
+    left:  1190;
+    top: 570px;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+    animation-play-state: running;
+   
+}
+@keyframes change{
+    0%{
+        background-color: rgb(255, 0, 234);
+        left:0;  
+    }
+    100%{
+        background-color: white;;
+        left: 1190px ;
+        
+    }
+}
+.div5{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(196, 33, 196);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(42, 2, 46);
+    padding-top: 30px;
+    font-size: 30px;
+    position: absolute;
+   top: 740px;
+   animation-name: change;
+   animation-duration: 3s;
+   animation-delay: 12s;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-in-out;
+   animation-play-state: running;
+}
+@keyframes change{
+    0%{
+        background-color: rgb(255, 0, 234);
+        left:0;  
+    }
+    100%{
+        background-color:white;
+        left: 1190px ;
+        
+    }
+}
+.div6{
+    width: 150px;
+    height: 100px;
+    background: -webkit-linear-gradient(left,rgb(196, 33, 142),rgb(46, 105, 214),pink);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 890px;
+    left: 1190;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in-out;
+    animation-direction: reverse;
+    animation-play-state: running;
+   
+}
+@keyframes change{
+    0%{
+        background-color: rgb(255, 0, 234);
+        left:0;  
+    }
+    100%{
+        background-color: white;
+        left: 1190px ;
+        
+    }
+}
+.div7{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(196, 33, 196);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(42, 2, 46);
+    padding-top: 30px;
+    font-size: 30px;
+    position: absolute;
+   top: 1040px;
+   animation-name: change;
+   animation-duration: 3s;
+   animation-delay: 18s;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-in-out;
+   animation-play-state: running;
+}
+@keyframes change{
+    0%{
+        background-color: rgb(255, 0, 234);
+        left:0;  
+    }
+    100%{
+        background-color: white;
+        left: 1190px ;
+        
+    }
+}
+.div8{
+    width: 150px;
+    height: 100px;
+    background: -webkit-linear-gradient(left,rgb(196, 33, 142),rgb(46, 105, 214),pink);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 1200px;
+    left:  1190;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+    animation-play-state: running;
+}
+@keyframes change{
+    0%{
+        background-color: rgb(255, 0, 234);;
+        left:0;  
+    }
+    100%{
+        background-color: white;
+        left: 1190px ;
+        
+    }
+}
